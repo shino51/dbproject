@@ -1,10 +1,10 @@
-CREATE DATABASE 'carinsurance';
+CREATE DATABASE 'cardealer';
 
 CREATE USER 'gsm'@'%' IDENTIFIED BY 'password';
-GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP ON carinsurance.* TO 'gsm'@'%';
+GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP ON cardealer.* TO 'gsm'@'%';
 FLUSH PRIVILEGES;
 
-use carinsurance;
+use cardealer;
 
 CREATE TABLE 'test' (
   'id' int(11) NOT NULL AUTO_INCREMENT,

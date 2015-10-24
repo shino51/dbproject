@@ -1,15 +1,15 @@
-# Car Insurance
+# dbproject
 ##address
-http://localhost/carinsurance/index.php
+http://localhost/dbproject/index.php
 
 ## Apache
 
-Config file: c:/wamp/bin/apache/apache2.4.9/httpd.conf
+Config file: c:/wamp/bin/apache/apache2.4.9/conf/httpd.conf
 
 ### Add Directory
 
 <pre>
-&lt;Directory "c:/your/path/carinsurance/www/"&gt;
+&lt;Directory "c:/your/path/dbproject/www/"&gt;
     Options Indexes FollowSymLinks MultiViews
     Require all granted
 &lt;/Directory&gt;
@@ -20,7 +20,7 @@ Config file: c:/wamp/bin/apache/apache2.4.9/httpd.conf
 <pre>
 &lt;IfModule&gt;
 ...
-Alias /carinsurance "c:/your/path/carinsurance/www/"
+Alias /dbproject "c:/your/path/dbproject/www/"
 ...
 &lt;/IfModule&gt;
 </pre>

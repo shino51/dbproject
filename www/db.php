@@ -3,7 +3,7 @@ function openDbConnection() {
     $servername = "localhost:3306";
     $username = "gsm";
     $password = "password";
-    $dbname = "carinsurance";
+    $dbname = "cardealer";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
